@@ -10,6 +10,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
   </head>
   <body>
     <header>
@@ -76,7 +80,9 @@
                 <h8 class="card-title ms-3 text-secondary fs-1 fw-lighter"
                   >-</h8
                 >
-                <h8 class="card-title ms-3 m-0 text-secondary">Feel the Freedom</h8>
+                <h8 class="card-title ms-3 m-0 text-secondary"
+                  >Feel the Freedom</h8
+                >
               </div>
               <p class="card-text fst-italic text-secondary py-3">
                 Scopri le destinazioni più calde del momento!
@@ -106,7 +112,7 @@
             <div class="col">
               <div class="card border border-info border-3">
                 <img
-                  src="https://picsum.photos/640"
+                  src="https://picsum.photos/180"
                   class="card-img-top"
                   alt="..."
                 />
@@ -123,7 +129,7 @@
             <div class="col">
               <div class="card border border-info border-3">
                 <img
-                  src="https://picsum.photos/500"
+                  src="https://picsum.photos/100"
                   class="card-img-top"
                   alt="..."
                 />
@@ -140,7 +146,7 @@
             <div class="col">
               <div class="card border border-info border-3">
                 <img
-                  src="https://picsum.photos/610"
+                  src="https://picsum.photos/160"
                   class="card-img-top"
                   alt="..."
                 />
@@ -157,7 +163,7 @@
             <div class="col">
               <div class="card border border-info border-3">
                 <img
-                  src="https://picsum.photos/570"
+                  src="https://picsum.photos/170"
                   class="card-img-top"
                   alt="..."
                 />
@@ -190,7 +196,7 @@
             <div class="col mt-3">
               <div class="card border-light shadow-lg bg-body-tertiary rounded">
                 <img
-                  src="https://picsum.photos/130"
+                  src="https://picsum.photos/99"
                   class="card-img-top"
                   alt="..."
                 />
@@ -293,48 +299,155 @@
         </div>
       </section>
       <!-- OFFERTA DEL GIORNO -->
-      <section>
+      <section class="d-none d-md-block">
         <div class="container mt-5">
-          <div class="row">
-            <div class="col-6 fs-3 text fw-semibold">Offerta del giorno</div>
-          </div>
+          <h1>Offerta del giorno</h1>
         </div>
         <!-- fine titolo -->
-        <div class="container">
-            <div class="row">
-                <div class="col-10">
-          <div class="card border-light">
-            <div class="row g-0 ">
-              <div class="col-9">
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-8">
+              <div class="shadow rounded-3">
                 <img
-                  src="https://picsum.photos/1500/900"
-                  class="img-fluid rounded-5"
-                  alt="..."
+                  src="https://picsum.photos/250/100"
+                  class="w-100 shadow bg-body-tertiary rounded"
+                  alt=""
                 />
               </div>
-              <div class="col-3">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-body-secondary"
-                      >Last updated 3 mins ago</small
-                    >
-                  </p>
-                </div>
-              
+            </div>
+            <div class="col-3">
+              <h3 class="fs-1">Campo</h3>
+              <h3 class="fs-1">Felice</h3>
+              <p class="text-success">15/10/2023 - 25/11/2023</p>
+              <p>Ville a partire da 500€</p>
+              <p>Non farte sfuggire!</p>
+              <button type="button" class="btn btn-dark rounded-5">
+                Best offer
+              </button>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+      </section>
+      <!-- LAST MINUTE -->
+      <section>
+        <div class="container mt-5">
+          <h1>Last minute</h1>
+        </div>
+        <!-- fine titolo -->
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col">
+              <img
+                src="https://picsum.photos/109"
+                alt=""
+                class="w-100 shadow bg-body-tertiary rounded"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/104"
+                alt=""
+                class="w-100 shadow bg-body-tertiary rounded"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/103"
+                alt=""
+                class="w-100 shadow bg-body-tertiary rounded"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/102"
+                alt=""
+                class="w-100 shadow bg-body-tertiary rounded"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/101"
+                alt=""
+                class="w-100 shadow bg-body-tertiary rounded"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/100"
+                alt=""
+                class="w-100 shadow bg-body-tertiary rounded"
+              />
             </div>
           </div>
         </div>
-    </div>
-        <div class="col-2"></div>
+      </section>
+      <!-- DICONO DI NOI -->
+      <section>
+        <div class="container my-5 d-flex justify-content-center">
+          <h1>Dicono di noi</h1>
+        </div>
+        <div class="container mb-5">
+          <div class="d-flex">
+            <div class="flex-grow-1 me-3">
+              <i
+                class="bi bi-person-circle text-secondary"
+                style="font-size: 4em"
+              ></i>
+            </div>
+            <div>
+              <p>Username</p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+              blanditiis optio cupiditate veritatis. Id aut error dolore sed.
+              Pariatur esse aliquam ipsum placeat dolores similique dolor
+              debitis eum impedit quo?Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Deserunt blanditiis optio cupiditate veritatis.
+              Pariatur esse aliquam ipsum placeat dolores similique dolor
+              debitis eum impedit quo?
+            </div>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="d-flex">
+            <div class="flex-grow-1 me-3">
+              <i
+                class="bi bi-person-circle text-secondary"
+                style="font-size: 4em"
+              ></i>
+            </div>
+            <div>
+              <p>Username</p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+              blanditiis optio cupiditate veritatis. Id aut error dolore sed.
+              Pariatur esse aliquam ipsum placeat dolores similique dolor
+              debitis eum impedit quo?Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Deserunt blanditiis optio cupiditate veritatis.
+              Pariatur esse aliquam ipsum placeat dolores similique dolor
+              debitis eum impedit quo?
+            </div>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="d-flex">
+            <div class="flex-grow-1 me-3">
+              <i
+                class="bi bi-person-circle text-secondary"
+                style="font-size: 4em"
+              ></i>
+            </div>
+            <div>
+              <p>Username</p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+              blanditiis optio cupiditate veritatis. Id aut error dolore sed.
+              Pariatur esse aliquam ipsum placeat dolores similique dolor
+              debitis eum impedit quo?Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Deserunt blanditiis optio cupiditate veritatis.
+              Pariatur esse aliquam ipsum placeat dolores similique dolor
+              debitis eum impedit quo?
+            </div>
+          </div>
         </div>
       </section>
-      <section></section>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
